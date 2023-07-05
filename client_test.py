@@ -19,6 +19,14 @@ class ClientTest(unittest.TestCase):
 
   """ ------------ Add more unit tests ------------ """
 
+  def getRatio(price_a, price_b):
+    """ Get ratio of price_a and price_b """
+    """ ------------- Update this function ------------- """
+    """ Also create some unite tests for this function in client_test.py"""
+    if (price_b == 0):
+      # when price_b is 0 avoid throwing ZeroDivisionError
+      return
+    return price_a / price_b
 
 
 if __name__ == '__main__':
